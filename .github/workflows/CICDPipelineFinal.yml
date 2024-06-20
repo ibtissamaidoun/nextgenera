@@ -1,4 +1,3 @@
-
 name: CI-CD-Final
 
 on:
@@ -304,4 +303,3 @@ jobs:
           script: |
             mkdir -p "${{ matrix.server.path }}/releases/myApp"
             tar xzf ${{ matrix.server.path }}/artifacts/myAPP.tar.gz -C "${{ matrix.server.path }}/releases/myApp"
-
