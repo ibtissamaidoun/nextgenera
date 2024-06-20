@@ -3,7 +3,7 @@ import axios from 'axios';
 import store from "@/store/index.js";
 
 const axiosInstance = axios.create({
-  baseURL: 'http://127.0.0.1:8000/api', // URL de notre API backend
+  baseURL: 'https://nextgenera.southafricanorth.cloudapp.azure.com/api', // URL de notre API backend
   withCredentials: true 
 });
 
