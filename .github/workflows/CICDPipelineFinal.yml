@@ -1,26 +1,4 @@
-Skip to content
-Navigation Menu
-ibtissamaidoun
-/
-NextGen-Era-
 
-Type / to search
-
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Security
-Insights
-Settings
-Final DevSecOps CI/CD pipeline
-Update Dockerfile #55
-Jobs
-Run details
-Workflow file for this run
-.github/workflows/DeploymentFinal.yml at 76ae885
 name: Final DevSecOps CI/CD pipeline
 
 on:
@@ -504,4 +482,4 @@ jobs:
           script: |
             mkdir -p "${{ matrix.server.path }}/releases/myVueApp"
             tar xzf ${{ matrix.server.path }}/artifacts/myVueApp.tar.gz -C "${{ matrix.server.path }}/releases/myVueApp"
-Update Dockerfile · ibtissamaidoun/NextGen-Era-@76ae885 
+ 
